@@ -1,0 +1,26 @@
+@media screen and (max-width: 576px) {
+  .links,
+  .navbar {
+    flex-direction: column;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+    justify-items: center;
+    text-align: center;
+  }
+
+  .banner-img {
+    max-width: 100%;
+  }
+  section {
+    margin: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .banner-content {
+    justify-items: center;
+    text-align: center;
+  }
+}

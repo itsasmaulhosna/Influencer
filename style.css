@@ -1,3 +1,76 @@
-body {
-  background-color: red;
+/* shared */
+.display-flex {
+  display: flex;
+}
+main {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+section {
+  margin-top: 120px;
+}
+.text {
+  font-size: 1rem;
+  font-style: semibold;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+/* navbar */
+.links li {
+  list-style: none;
+  margin-right: 20px;
+}
+.links li a {
+  text-decoration: none;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.links :hover {
+  color: blue;
+}
+.name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-left: 20px;
+}
+/* banner */
+.banner {
+  /* width: 100%; */
+}
+.banner-content {
+  width: 500px;
+  margin: 0 auto;
+}
+.banner-title {
+  font-size: 3.25rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.text {
+  color: rgba(58, 58, 58, 1);
+}
+.btn {
+  padding: 10px 25px;
+  border-radius: 41px;
+  background: rgba(224, 44, 109, 1);
+  color: white;
+  display: inline-flex;
+  gap: 5px;
+  font-size: 1rem;
+  border: none;
+}
+.banner-img {
+  /* height: 80vh; */
+  background-image: url('./influencer-gear/images/Circle design.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
+  width: 450px;
+}
+.banner-img img {
+  position: relative;
+  left: 5%;
 }
