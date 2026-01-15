@@ -6,9 +6,11 @@
   .banner {
     flex-direction: column-reverse;
   }
-  .banner-content {
+  .banner-content,
+  .companies {
     justify-items: center;
     text-align: center;
+    align-items: center;
   }
 
   .banner-img {
@@ -17,10 +19,43 @@
   section {
     margin: 20px;
   }
+
+  .companies-items {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .card-box {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
   .banner-content {
     justify-items: center;
     text-align: center;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  .card-box {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+  .companies-items {
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+  .companies {
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+  }
+  section {
+    margin: 20px;
   }
 }
