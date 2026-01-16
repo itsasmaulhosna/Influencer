@@ -3,16 +3,21 @@
   .navbar {
     flex-direction: column;
   }
-  .banner {
+  .banner,
+  .feature-container {
     flex-direction: column-reverse;
   }
   .banner-content,
-  .companies {
+  .companies,
+  .feature-content,
+  .text-right {
     justify-items: center;
     text-align: center;
     align-items: center;
   }
-
+  .feature-title {
+    font-size: 1.8rem;
+  }
   .banner-img {
     max-width: 100%;
   }
@@ -28,6 +33,7 @@
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     align-items: center;
+    width: 100%;
   }
   .banner-title {
     font-size: 2rem;
@@ -39,9 +45,10 @@
     text-align: center;
   }
   .banner-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
-  .card-box {
+  .card-box,
+  .feature-container {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
@@ -57,5 +64,15 @@
   }
   section {
     margin: 20px;
+  }
+  .feature-title {
+    font-size: 1.4rem;
+  }
+  .text {
+    font-size: 0.8rem;
+  }
+  .btn {
+    padding: 10px 40px;
+    border-radius: 6px;
   }
 }
